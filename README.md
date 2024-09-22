@@ -55,10 +55,10 @@ The final version of the project, as implemented in Task 2 - Sub-task 2, represe
 2. **Building a robust REST API** to provide real-time access to historical exchange rate data.
 3. **Implementing comprehensive error handling** and data validation to ensure data integrity and reliability.
 
-For a detailed look at the final implementation, please refer to [task2/subtask_2] Sub-task 2 in the project repository.
+For a detailed look at the final implementation, please refer to Sub-task 2 in the project repository.
 
 ## Conclusion
 
 By following an incremental development model, I was able to build and refine the Forex Data Scheduler, adding features and addressing limitations step-by-step. This approach ensured a stable and maintainable codebase, with each iteration building upon the lessons learned from the previous one.
 
-For more details on the final version, please check the [](#) section.
+For more details on the final version, please check the [[task2/subtask_2]](#) section.
