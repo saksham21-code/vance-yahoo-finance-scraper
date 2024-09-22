@@ -50,7 +50,7 @@ The Yahoo Finance Historical Exchange Rate Scraper allows users to scrape histor
     - Username: `sa`
     - Password: (leave blank)
 
-![H2 Database Console](../img/task1_db.png)
+![H2 Database Console](./img/task1_db.png)
 
 ## API Endpoints
 
