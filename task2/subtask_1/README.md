@@ -93,7 +93,7 @@ POST /api/v1/exchange/forex-data?from=EUR&to=USD&period=1M
 The data is stored in a single table `EXCHANGE_RATE`
 
 ### Database Schema Image
-![Database Schema](task2/subtask_1/img/DB.png)
+![Database Schema](img/DB.png)
 
 ## Error Handling
 
