@@ -55,7 +55,7 @@ The final version of the project, as implemented in Task 2 - Sub-task 2, represe
 2. **Building a robust REST API** to provide real-time access to historical exchange rate data.
 3. **Implementing comprehensive error handling** and data validation to ensure data integrity and reliability.
 
-For a detailed look at the final implementation, please refer to Task 2 - Sub-task 2 in the project repository.
+For a detailed look at the final implementation, please refer to [task2/subtask_2] Sub-task 2 in the project repository.
 
 ## Conclusion
 
