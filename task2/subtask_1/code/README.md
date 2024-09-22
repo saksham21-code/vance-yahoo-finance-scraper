@@ -91,14 +91,7 @@ forex-data-api/
 - If the `forex-data` API is called with no matching data, an empty list is returned.
 
 ## Improvements
-1. **Duplicate Data Handling**:
-    - Add logic to prevent duplicate entries in the database if the same data is scraped multiple times.
-
-2. **Enhanced Query Parameters**:
-    - Allow for more flexible date range querying (e.g., custom date ranges instead of fixed periods).
-
-3. **Error Handling**:
-    - Implement more detailed error messages and status codes for various failure scenarios.
+- prevent duplicate entries in the database if the same data is scraped multiple times.
 
 ## Contact
 For any queries, feel free to reach out:
