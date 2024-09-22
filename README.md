@@ -61,4 +61,4 @@ For a detailed look at the final implementation, please refer to Task 2 - Sub-ta
 
 By following an incremental development model, I was able to build and refine the Forex Data Scheduler, adding features and addressing limitations step-by-step. This approach ensured a stable and maintainable codebase, with each iteration building upon the lessons learned from the previous one.
 
-For more details on the final version, please check the [Task 2 - Sub-task 2](#) section.
+For more details on the final version, please check the [](#) section.
