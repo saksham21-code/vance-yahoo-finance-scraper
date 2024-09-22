@@ -66,7 +66,7 @@ GET /api/scrape?quote=EURUSD=X&fromDate=1713149515&toDate=1721011871
 ```
 
 ### API Response Example
-![Postman API Response](../img/task1_postman.png)
+![Postman API Response](./img/task1_postman.png)
 
 ## Database Schema
 
@@ -92,7 +92,7 @@ The data is stored in a single table `EXCHANGE_RATE` with the following schema:
 ## Example Output
 
 ### Console Output
-![Console Output](../img/task1_console_output.png)
+![Console Output](./img/task1_console_output.png)
 
 ### Sample Table Output
 Sample output for a successful scrape:
