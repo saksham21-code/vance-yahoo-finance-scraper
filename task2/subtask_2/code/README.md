@@ -15,7 +15,6 @@ the in-memory H2 database while addressing duplicate data issues.
 - [Database Schema](#database-schema)
 - [Error Handling](#error-handling)
 - [Example Output](#example-output)
-- [Limitations](#limitations)
 - [Contact](#contact)
 ## Introduction
 The Forex Data Scheduler periodically scrapes historical exchange rate data for specific currency
@@ -129,9 +128,7 @@ The application handles various errors such as:
  "volume": 1500000
 }
 ```
-## Limitations
-- The application currently supports only a few currency pairs for testing.
-- The data is stored in an in-memory database, which is not suitable for production use.
+
 ## Contact
 For any questions or feedback, please contact:
 - **Email:** your.email@example.com
