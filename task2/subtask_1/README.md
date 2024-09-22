@@ -89,19 +89,7 @@ POST /api/v1/exchange/forex-data?from=EUR&to=USD&period=1M
 
 ## Database Schema
 
-The data is stored in a single table `EXCHANGE_RATE` with the following schema:
-
-| Field Name | Data Type | Description |
-|------------|-----------|-------------|
-| ID         | Long      | Auto-generated ID for each record |
-| QUOTE      | String    | Currency pair (e.g., EURUSD=X)    |
-| DATE       | Date      | Date of the exchange rate         |
-| OPEN       | Double    | Opening price                     |
-| HIGH       | Double    | Highest price                     |
-| LOW        | Double    | Lowest price                      |
-| CLOSE      | Double    | Closing price                     |
-| ADJ_CLOSE  | Double    | Adjusted closing price            |
-| VOLUME     | Long      | Trading volume                    |
+The data is stored in a single table `EXCHANGE_RATE`
 
 ### Database Schema Image
 ![Database Schema](../img/db_schema.png)
