@@ -101,7 +101,7 @@ The data is stored in a single table `EXCHANGE_RATE`
 - If no data is found for the given query parameters, an empty list is returned.
 
 ### Error Message Example
-![Error Message](/subtask_1/img/error.png)
+![Error Message](task2/subtask_1/img/error.png)
 
 ## Example Output
 
