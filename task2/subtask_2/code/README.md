@@ -34,39 +34,40 @@ strategy to avoid storing duplicate data.
 - **Jsoup** - For web scraping.
 ## Project Structure
 ```plaintext
+
 forex-data-scheduler/
-|
-|- src/
-| |- main/
-| | |- java/
-| | | `- com/example/forex_data_scheduler/
-| | | |- controller/ # REST API Controllers
-| | | | `- ExchangeController.java
-| | | |
-| | | |- model/ # Entity classes
-| | | | `- ExchangeRate.java
-| | | |
-| | | |- repository/ # Repository interfaces for database operations
-| | | | `- ExchangeRateRepository.java
-| | | |
-| | | |- service/ # Service classes containing business logic
-| | | | |- ExchangeRateQueryService.java
-| | | | |- ExchangeScraperService.java
-| | | | `- SchedulerService.java
-| | | |
-| | | `- utils/ # Utility classes
-| | | `- DateUtils.java
-| | | `- DateRangeUtils.java
-| | |
-| | `- resources/
-| | |- application.properties # Configuration properties for the application
-| | `- data.sql # Initial data for H2 database (if any)
-| |
-| `- test/ # Test classes for unit and integration testing
-|
-|- .gitignore # Files and directories to be ignored by Git
-|- pom.xml # Maven project file containing dependencies and build configuration
-`- README.md # Project documentation
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/example/forex_data_scheduler/
+│   │   │       ├── controller/              # REST API Controllers
+│   │   │       │   └── ExchangeController.java
+│   │   │       │
+│   │   │       ├── model/                   # Entity classes
+│   │   │       │   └── ExchangeRate.java
+│   │   │       │
+│   │   │       ├── repository/              # Repository interfaces for database operations
+│   │   │       │   └── ExchangeRateRepository.java
+│   │   │       │
+│   │   │       ├── service/                 # Service classes 
+│   │   │       │   ├── ExchangeRateQueryService.java
+│   │   │       │   ├── ExchangeScraperService.java
+│   │   │       │   └── SchedulerService.java
+│   │   │       │
+│   │   │       └── utils/                   # Utility classes
+│   │   │           ├── DateUtils.java
+│   │   │           └── DateRangeUtils.java
+│   │   │
+│   │   └── resources/
+│   │       ├── application.properties       
+│   │
+│   └── test/                            
+│
+├── .gitignore                               
+├── pom.xml                                 
+└── README.md                               
+
 ```
 ## Setup and Usage
 ### Build the project:
