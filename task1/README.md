@@ -66,7 +66,7 @@ GET /api/scrape?quote=EURUSD=X&fromDate=1713149515&toDate=1721011871
 ```
 
 ### API Response Example
-![Postman API Response](../img/postman-api.png)
+![Postman API Response](../img/task1_postman.png)
 
 ## Database Schema
 
