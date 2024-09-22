@@ -27,7 +27,6 @@ The Forex Data API allows users to query historical exchange rate data for speci
 
 ## Tech Stack
 
-- **Java 11**
 - **Spring Boot 2.5.4**
 - **H2 Database** - In-memory database for storing and querying scraped data.
 - **Postman** - For API testing
