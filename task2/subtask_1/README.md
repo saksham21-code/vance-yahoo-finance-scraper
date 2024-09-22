@@ -93,7 +93,7 @@ POST /api/v1/exchange/forex-data?from=EUR&to=USD&period=1M
 The data is stored in a single table `EXCHANGE_RATE`
 
 ### Database Schema Image
-![Database Schema](./subtask_1/img/DB.png)
+![Database Schema](task2/subtask_1/img/DB.png)
 
 ## Error Handling
 
@@ -106,10 +106,10 @@ The data is stored in a single table `EXCHANGE_RATE`
 ## Example Output
 
 ### Postman Output
-![Postman Output](/subtask_1/img/postman.png)
+![Postman Output](task2/subtask_1/img/postman.png)
 
 ### Console Logs
-![Console Logs](/subtask_1/img/console.png)
+![Console Logs](task2/subtask_1/img/console.png)
 
 ## limitations
 
