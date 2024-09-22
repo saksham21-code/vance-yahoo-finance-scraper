@@ -50,6 +50,8 @@ The Yahoo Finance Historical Exchange Rate Scraper allows users to scrape histor
     - Username: `sa`
     - Password: (leave blank)
 
+![H2 Database Console](../img/db-console.png)
+
 ## API Endpoints
 
 - **GET /api/scrape**: Triggers the scraping process.
@@ -62,6 +64,9 @@ Example Request:
 ```
 GET /api/scrape?quote=EURUSD=X&fromDate=1713149515&toDate=1721011871
 ```
+
+### API Response Example
+![Postman API Response](../img/postman-api.png)
 
 ## Database Schema
 
@@ -86,6 +91,10 @@ The data is stored in a single table `EXCHANGE_RATE` with the following schema:
 
 ## Example Output
 
+### Console Output
+![Console Output](../img/console-output.png)
+
+### Sample Table Output
 Sample output for a successful scrape:
 
 | ID  | QUOTE    | DATE       | OPEN  | HIGH  | LOW   | CLOSE | ADJ_CLOSE | VOLUME |
@@ -93,7 +102,6 @@ Sample output for a successful scrape:
 | 1   | EURUSD=X | 2024-07-15 | 1.0886| 1.0922| 1.0884| 1.0886| 1.0886    | 0      |
 | 2   | EURUSD=X | 2024-07-12 | 1.0873| 1.0911| 1.0863| 1.0873| 1.0873    | 0      |
 | ... | ...      | ...        | ...   | ...   | ...   | ...   | ...       | ...    |
-
 
 ## Contact
 
@@ -104,4 +112,3 @@ For any queries, feel free to reach out:
 - **LinkedIn**: [Saksham Tiwari](https://www.linkedin.com/in/saksham-tiwari/)
 
 ---
-
