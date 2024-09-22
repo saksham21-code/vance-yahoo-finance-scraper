@@ -131,5 +131,5 @@ The application handles various errors such as:
 
 ## Contact
 For any questions or feedback, please contact:
-- **Email:** your.email@example.com
-- **GitHub:** [your-github-username](https://github.com/your-github-username)
+- **Email:** saksham21.work@gmail.com
+- **GitHub:** [saksham21-code](https://github.com/saksham21-code)
