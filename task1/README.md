@@ -12,7 +12,6 @@ This project is a Java-based web scraping tool designed to extract historical ex
 - [Database Schema](#database-schema)
 - [Error Handling](#error-handling)
 - [Example Output](#example-output)
-- [Future Improvements](#future-improvements)
 - [Contact](#contact)
 
 ## Introduction
@@ -35,24 +34,17 @@ The Yahoo Finance Historical Exchange Rate Scraper allows users to scrape histor
 - **SLF4J** - For logging
 
 ## Setup and Usage
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/YahooFinanceScraper.git
-    cd YahooFinanceScraper
-    ```
-
-2. Build the project:
+1. Build the project:
     ```bash
     mvn clean install
     ```
 
-3. Run the application:
+2. Run the application:
     ```bash
     mvn spring-boot:run
     ```
 
-4. Access the H2 console:
+3. Access the H2 console:
     - URL: `http://localhost:8080/h2-console`
     - JDBC URL: `jdbc:h2:mem:testdb`
     - Username: `sa`
@@ -102,20 +94,14 @@ Sample output for a successful scrape:
 | 2   | EURUSD=X | 2024-07-12 | 1.0873| 1.0911| 1.0863| 1.0873| 1.0873    | 0      |
 | ... | ...      | ...        | ...   | ...   | ...   | ...   | ...       | ...    |
 
-## Future Improvements
-
-- Implement caching mechanism for previously scraped data.
-- Enhance error handling and retry mechanism for failed requests.
-- Add support for multiple currency pairs in a single request.
 
 ## Contact
 
 For any queries, feel free to reach out:
 
 - **Name**: Saksham Tiwari
-- **Email**: your-email@example.com
+- **Email**: saksham21.work@gmail.com
 - **LinkedIn**: [Saksham Tiwari](https://www.linkedin.com/in/saksham-tiwari/)
 
 ---
 
-Feel free to modify this README as per your project requirements.
