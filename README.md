@@ -19,7 +19,6 @@ In Task 1, the focus was on building a basic scraper to fetch historical exchang
   - Initial setup for handling currency pairs and timeframes.
 
 - **Limitations:**
-  - Lack of a REST API to query stored data.
   - No mechanism for automated or periodic scraping.
   - Basic error handling with limited data validation.
 
@@ -37,6 +36,7 @@ The next step was to develop a REST API to query the scraped data. This was achi
 - **Limitations:**
   - No periodic scraping to keep the database in sync with Yahoo Finance.
   - The data could become outdated without regular updates.
+  - Redundant duplicate data.
 
 #### Sub-task 2: Automated Data Synchronization
 
