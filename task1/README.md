@@ -26,7 +26,6 @@ The Yahoo Finance Historical Exchange Rate Scraper allows users to scrape histor
 
 ## Tech Stack
 
-- **Java 11**
 - **Spring Boot 2.5.4**
 - **Jsoup** - For web scraping
 - **H2 Database** - In-memory database for storing scraped data
