@@ -12,6 +12,7 @@ This project is part of a larger application that scrapes historical exchange ra
 - [Database Schema](#database-schema)
 - [Error Handling](#error-handling)
 - [Example Output](#example-output)
+- [Limitations](#limitations)
 - [Contact](#contact)
 
 ## Introduction
@@ -109,6 +110,12 @@ The data is stored in a single table `EXCHANGE_RATE`
 
 ### Console Logs
 ![Console Logs](../img/console_logs.png)
+
+## Example Output
+
+-The scraping URL is called without any query parameter checking (i.e may be called twice if we hit the API for same parameter twice)
+-This results in the database string redundant duplicate data
+-The qyery API also calls the DB and checks for the passed parameters, hence the redundant/duplicate data is called and fetched N number of times.
 
 ## Contact
 
