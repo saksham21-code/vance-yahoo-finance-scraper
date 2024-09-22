@@ -101,15 +101,15 @@ The data is stored in a single table `EXCHANGE_RATE`
 - If no data is found for the given query parameters, an empty list is returned.
 
 ### Error Message Example
-![Error Message](./subtask_1/img/error.png)
+![Error Message](/subtask_1/img/error.png)
 
 ## Example Output
 
 ### Postman Output
-![Postman Output](./subtask_1/img/postman.png)
+![Postman Output](/subtask_1/img/postman.png)
 
 ### Console Logs
-![Console Logs](./subtask_1/img/console.png)
+![Console Logs](/subtask_1/img/console.png)
 
 ## limitations
 
