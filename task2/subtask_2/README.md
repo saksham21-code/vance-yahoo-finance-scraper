@@ -113,9 +113,6 @@ The data is stored in a single table `EXCHANGE_RATE` with the following schema:
 ### Postman Output
 ![Postman Output](img/postman.png)
 
-### Console Logs
-![Console Logs](img/console.png)
-
 ### Scheduling Logs
 Logs showing the scheduled tasks being triggered.
 ![Scheduling Logs](img/scheduling_logs.png)
