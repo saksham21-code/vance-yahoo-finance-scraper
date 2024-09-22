@@ -50,7 +50,7 @@ The Yahoo Finance Historical Exchange Rate Scraper allows users to scrape histor
     - Username: `sa`
     - Password: (leave blank)
 
-![H2 Database Console](../img/db-console.png)
+![H2 Database Console](../img/task1_db.png)
 
 ## API Endpoints
 
@@ -92,7 +92,7 @@ The data is stored in a single table `EXCHANGE_RATE` with the following schema:
 ## Example Output
 
 ### Console Output
-![Console Output](../img/console-output.png)
+![Console Output](../img/task1_console_output.png)
 
 ### Sample Table Output
 Sample output for a successful scrape:
